@@ -4,7 +4,6 @@
 [![React](https://img.shields.io/badge/React-19.0-61dafb.svg)](https://react.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-4.1-38b2ac.svg)](https://tailwindcss.com/)
 [![Express](https://img.shields.io/badge/Express-4.21-lightgrey.svg)](https://expressjs.com/)
-[![Gemini API](https://img.shields.io/badge/Google_Gemini-2.4-8e75ff.svg)](https://ai.google.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 **AI Scam Shield** is a cybersecurity intelligence and threat prevention web application engineered to detect, analyze, and intercept phishing attempts, social engineering attacks, deceptive SMS/WhatsApp alerts, and malicious links in real-time.
@@ -76,11 +75,6 @@ Powered by a hybrid multi-pattern heuristic engine and Google Gemini AI explaina
    cp .env.example .env
    ```
 
-   Add your [Gemini API Key](https://aistudio.google.com/app/apikey) in `.env`:
-   ```env
-   GEMINI_API_KEY="your-gemini-api-key-here"
-   APP_URL="http://localhost:3000"
-   ```
 
 4. **Start the Development Server:**
    ```bash
